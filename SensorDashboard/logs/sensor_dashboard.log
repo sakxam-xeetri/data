@@ -1,0 +1,10 @@
+2026-06-27 20:56:19,458 [INFO] backend: Mounted static frontend assets.
+2026-06-27 20:56:19,542 [INFO] backend: Starting up Telemetry Server...
+2026-06-27 20:56:19,543 [INFO] backend.serial_reader: Serial reader thread started.
+2026-06-27 20:56:19,544 [INFO] backend: Shutting down Telemetry Server...
+2026-06-27 20:56:19,557 [INFO] backend.serial_reader: Auto-detected Arduino port: COM16 (USB Serial Device (COM16))
+2026-06-27 20:56:19,558 [INFO] backend.serial_reader: Attempting to open port COM16 at 115200 baud...
+2026-06-27 20:56:19,558 [ERROR] backend.serial_reader: Serial error on port COM16: could not open port 'COM16': PermissionError(13, 'Access is denied.', None, 5)
+2026-06-27 20:56:19,558 [WARNING] backend.serial_reader: Falling back to Mock Telemetry mode due to serial port error.
+2026-06-27 20:56:19,559 [INFO] backend.serial_reader: Mock telemetry simulator loop started.
+2026-06-27 20:56:19,559 [INFO] backend.serial_reader: Serial reader thread stopped.
